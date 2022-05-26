@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top left, #acc7fd, #e1f1ff);
+}
+
+#content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 15%;
+}
+
+/* Calculator container */
+#calculator-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 100%;
+    padding: 5px;
+    color: black;
+    background-color: #404756;
+    border-radius: 5px;
+}
+
+.calculation-display {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: x-large;
+    background-color: #fff;
+}
+
+.top-row, .row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.calculator-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Button colors */
+.number {
+    background-color: #fff;
+}
+
+.operator, .decimal {
+    background-color: #dbd9d9;
+}
+
+.equal {
+    background-color: #00abff;
+    transition: background-color .1s;
+}
+
+.equal:hover {
+    background-color: #0078e4;
+}
+
+.clear {
+    background-color: #cf3b3b; 
+    transition: background-color .1s;
+}
+
+.clear:hover {
+    background-color: #b83333;
+}
+
+/* Footer */
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Social links */
+.social-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-links > li > a {
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-linkedin:hover {
+    color: #FFF;
+}
+
+.fa-github {
+    color: #4078c0;
+}
+
+.fa-github:hover {
+    color: #FFF;
+}
