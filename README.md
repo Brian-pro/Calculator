@@ -21,3 +21,6 @@ These are the main challenges that I encountered throughout this project:
 
 ## Credit to Fontawesome for providing icons
 Credit to [Fontawesome](https://fontawesome.com/) for providing the icons that I used for my github and linkedin social links.
+
+## Possible Continuations on this Project.
+Eventually, I would like to come back to this project and display warning messages to alert when a user is doing an invalid button press. I may also visit revisiting the styling of the calculator but the purpose for this project was to focus on the JavaScript so I am happy with the final prodcut at the moment. Lastly, I may add more buttons to the calculator later down the road (i.e. square root, to the power of, etc.).
