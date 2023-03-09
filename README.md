@@ -3,6 +3,10 @@
 ## Project Description
 This project was focused on vanilla JavaScript which was used to create a calculator web application.
 
+Deployed using Netlify:
+
+https://dainty-chimera-ae0c2f.netlify.app/
+
 ## Purpose
 The purpose behind this project was to continue putting my javascript knowledge to the test. This is my second project focused on tackling common beginner JavaScript focused projects. Also, I went into this project not wanting to look up any existing projects that have done this project before and I was successful in finishing the application all by myself!
 
